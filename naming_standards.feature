@@ -13,5 +13,4 @@ Feature: Resources should have a proper naming standard
     | aws_s3_bucket           | bucket   |
     | aws_key_pair            | key_name |
     | aws_ecs_cluster         | name     |
-    | aws_dynamodb_table      | name     |
-
+    | aws_dynamodb_table      | id       |
