@@ -17,6 +17,6 @@ Feature: Resources should be properly tagged
     Examples:
       | tags        | value              |
       | Name        | .+                 |
-      | Product | .+                 |
+      | Product     | .+                 |
       | ChargeCode  | .+                 |
-      | SDLCEnv | ^(pro\|uat\|dev\|npd\|prd)$ |
+      | SLDCEnv     | ^(pro\|uat\|dev\|npd\|prd)$ |
